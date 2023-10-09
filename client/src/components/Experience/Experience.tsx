@@ -3,16 +3,18 @@ import { OrbitControls, Environment } from "@react-three/drei";
 import Avatar from "./Avatar";
 import Harley from "./Harley";
 import Title from './Title';
+import { Perf } from 'r3f-perf';
 
 function Experience() {
     
 	return (
 		<>
+            <Perf position='top-left' />
             <OrbitControls />
 
             <axesHelper args={[5]} position={[0, 0, 0]} />
 
-            <Environment preset="warehouse" background />
+            <Environment preset="warehouse"  />
             
             <Title />
 
