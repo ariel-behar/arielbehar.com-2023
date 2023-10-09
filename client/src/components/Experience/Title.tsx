@@ -5,11 +5,12 @@ function Title() {
 		<>
 			<Float rotationIntensity={0.4}>
 				<Text
-					font="../../assets/fonts/bangers-v20-latin-regular.woff"
+					font="./fonts/bangers-v20-latin-regular.woff"
 					fontSize={1}
+                    color={'blue'}
 					position={[0, 0.75, 2]}
-					rotation-y={1.25}
-					maxWidth={3}
+					rotation-y={0.75}
+					maxWidth={2}
 					textAlign="center"
 				>
 					Ariel Behar
