@@ -1,8 +1,12 @@
+import { useGLTF } from "@react-three/drei"
 
 function Harley() {
-  return (
-    <></>
-  )
+    const { nodes, scene } = useGLTF('./models/harley/scene.gltf')
+    
+    return <>
+        <primitive object={scene} />
+    
+    </>;
 }
 
-export default Harley
+export default Harley;
